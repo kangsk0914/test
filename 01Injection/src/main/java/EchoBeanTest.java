@@ -11,6 +11,7 @@ public class EchoBeanTest {
 		ApplicationContext ctx = 
 				new GenericXmlApplicationContext("echo.xml");
 		int n=0;
+		String sad;
 		
 		//빈접근
 		EchoBean bean = (EchoBean)ctx.getBean("echo");
