@@ -10,6 +10,7 @@ public class EchoBeanTest {
 	public static void main(String[] args) {
 		ApplicationContext ctx = 
 				new GenericXmlApplicationContext("echo.xml");
+		int n=0;
 		
 		//빈접근
 		EchoBean bean = (EchoBean)ctx.getBean("echo");
